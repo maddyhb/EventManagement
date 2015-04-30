@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 	<head>
 			<title>
@@ -25,33 +25,36 @@
 					</ul>
 				</div>
 				<div id="left_content">
-					<div id="event_regis">
-						<h3>EVENT REGISTRATION</h3>
-						<form action="">
-							<table>
-								<tr>
-									<td>Event Name</td>
-									<td><input type="text" name="e_name" placeholder="Enter Event name"></td>
-								</tr>
-								<tr>
-									<td>Event Type</td>
-									<td><select name="e_type">
-										<option value="ABC">ABC</option>
-										<option value="DEF">DEF</option>
-										<option value="ABC">ABC</option>
-										<option value="DEF">DEF</option>
-										<option value="ABC">ABC</option>
-										<option value="DEF">DEF</option>
-										<option value="ABC">ABC</option>
-										<option value="DEF">DEF</option>
-										<option value="ABC">ABC</option>
-										<option value="DEF">DEF</option>
-										</select>
-									</td>
-								</tr>
-							</table>
-						</form>
-					</div>
+					<h4>UPCOMING EVENTS</h4>
+					<hr/>
+					<table id="event_details" cellspacing="45px">
+						<tr>
+							<td>
+								
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								
+							</td>
+							
+						</tr>
+						<tr>
+							
+							<td>
+								
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								
+							</td>
+						</tr>
+						
+					</table>
+				</div>
 				<div id="right_column">
 				<div id="login" >
 						<h4>LOGIN</h4>
@@ -85,12 +88,7 @@
 							</table>
 						</form>
 					</div>
-					<div id="right_bottom">
-						<hr/>
-						<a href="event_regis.html">
-						<p>REGISTER EVENT</p></a>
-						
-					</div>
+					
 				</div>	
 				
 			</div>

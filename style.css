@@ -83,19 +83,21 @@ body{
 	background-color: #fff;
 	border-radius: 3px;
 	margin-top:-5px;
+	
 }
 
 #left_content{
 	float:left;
 	width:770px;
-	border-right: 2pt solid #888;
+	//border-right: 2pt solid #888;
 	
 }
 
 #event_details{
 	margin-left: 0px;
 	margin-top: -32px;
-}
+	border-right: 2pt solid #888;
+	}
 
 #event_details tr td{
 	border:1pt solid #ababab;
@@ -198,3 +200,50 @@ body{
 	margin-left:0px;
 	
 }
+
+#event_regis{
+//border:1pt solid #888;
+padding-left:48px;
+}
+
+#event_regis h3{
+color:#999;
+font-size:15px;
+}
+
+#event_regis tr td{
+font-size:14px;
+color:#888;
+padding:10px 0px;
+
+}
+#event_regis td{
+
+width:300px;
+}
+
+#event_regis td input{
+padding:5px;
+border:1pt solid #e5e5e5;
+border-radius:2px;
+width:190px;
+color:#999;}
+
+#event_regis td select{
+width:200px;
+padding:5px;
+color:#999;
+border:1pt solid #e5e5e5;
+}
+.date_pick{
+color:#999;
+}
+
+#event_regis hr{
+color:#e6e6e6;
+	width:650px;
+	margin-left:0px;}
+
+.address{
+color:#999;
+border:1pt solid #e5e5e5}
